@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6vh;
+  background-color: #508dd8;
+  text-align: start;
+  padding-left: 10px;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+}
+
+.main {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 999; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  max-width: 500px;
+  width: 100%;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: #151414;
+}
+
+
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #3a903d;
+  color: white;
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 150px;
+    margin-right: 20px;
+    border: none;
+
+
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.btn_1 {
+  background-color: #4CAF50;
+  color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 55px;
+    margin-right: 8px;
+    border: none;
+}
+
+.container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.userCard {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+    background-color: #fffdfd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+  background-color: #8f8ac2;
+  border-radius: 50%;
+  margin: 10px;
+margin-right: 30px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
