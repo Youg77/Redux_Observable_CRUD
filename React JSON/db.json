@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dev",
+      "address": "Badigad",
+      "email": "dev@info.com",
+      "contact": "9876757"
+    },
+    {
+      "id": 3,
+      "name": "ram1",
+      "address": "lkjhg",
+      "email": "onoguo@rgh.vbo ",
+      "contact": "0987"
+    },
+    {
+      "name": "Bipin ",
+      "email": "bipin@gmail.com",
+      "address": "Gwalichaur",
+      "contact": "876544567",
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "charlie5",
+      "email": "rvc@gb.cm",
+      "address": "Helicns",
+      "contact": "876543",
+      "userId": null,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "saral6",
+      "address": "pkr1",
+      "email": "infosar@frgt.com",
+      "contact": "98767890"
+    },
+    {
+      "id": 7,
+      "name": "saral kkkar233",
+      "address": "sdefgrh",
+      "email": "yklhgj@bnj.com",
+      "contact": "9876543"
+    },
+    {
+      "id": 8,
+      "name": "World123",
+      "address": "grefadw",
+      "email": "info@gmail.com",
+      "contact": "987654"
+    },
+    {
+      "id": 9,
+      "name": "Krishna",
+      "address": "efaefe",
+      "email": "8765@kjh.com",
+      "contact": "98765"
+    }
+  ]
+}
